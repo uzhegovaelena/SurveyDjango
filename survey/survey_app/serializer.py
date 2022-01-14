@@ -9,6 +9,6 @@ class SurveySerializer(serializers.ModelSerializer):
 
 
 class QuestionSerializer(serializers.ModelSerializer):
-    class meta:
+    class Meta:
         model = Question
         fields = '__all__'
